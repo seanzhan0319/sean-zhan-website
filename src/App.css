@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-image: url('iceSkating.jpg');
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -35,4 +40,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('./iceSkating.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
