@@ -1,0 +1,60 @@
+.home {
+  height: 100%;
+  margin: 0;
+  background-color: #b2dfdb;
+  /* background-color: #b2ebf2; */
+  position: center;
+  overflow-x: hidden; 
+}
+
+.group3 {
+  position: fixed;
+  left: 8%;
+  top: 18%;
+  width: 35%;
+  height: 60%;
+  /* background-color: darkgreen; */
+  display: flex;
+  flex-direction: column;
+}
+
+.group1 {
+  display: flex;
+  position: relative;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 4vw;
+  width: 80%;
+  /* background-color: darkgray; */
+}
+
+.proCircle {
+  float: right;
+  height: 22vw;
+  width: 22vw;
+  /* background-color: darkgray; */
+}
+
+.group1-1 {
+  position: relative;
+  float: left;
+}
+
+.group2 {
+  position: fixed;
+  right: 10%;
+  top: 20%;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1.7vw;
+  width: 35%;
+};
+
+.intro {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2vw;
+}

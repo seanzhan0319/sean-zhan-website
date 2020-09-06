@@ -1,44 +1,34 @@
 import React from 'react';
 import './App.css';
-// import 'fontsource-roboto';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-import Button from '@material-ui/core/Button';
-
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: '#e0f7fa'
-    }
-  },
-});
-
-// function openResume() {
-//   window.open()
-// }
+import Home from './Components/Home';
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
+import Leadership from './Components/Leadership';
+import Malle from './Projects/Malle';
+import Drone from './Projects/Drone';
+import Connect4 from './Projects/Connect4';
+import Search from './Projects/Search';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <div class="home">
-        <div class="bg">
-          <div class="group1">
-            <div class="hello">
-              Hi! I'm Sean
-            </div>
-            <div class="resume">
-              <Button 
-                style={{ fontSize:'1.2vw' }} 
-                color="primary" variant="outlined"
-                onClick={() => console.log("hello")}>
-                  Resume  
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </ThemeProvider>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/experience" component={Projects}/>
+        <Route exact path="/leadership" component={Leadership}/>
+        <Route exact path="/experience/malle" component={Malle}/>
+        <Route exact path="/experience/drone" component={Drone}/>
+        <Route exact path="/experience/connect4" component={Connect4}/>
+        <Route exact path="/experience/search" component={Search}/>
+      </Switch>
+    </Router>
   );
 }
 

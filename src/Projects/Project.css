@@ -1,0 +1,36 @@
+.project-header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.project-container {
+  position: relative;
+  /* background-color: khaki; */
+  width: 90%;
+  margin: auto;
+  top: 20px;
+}
+
+.project-tech {
+  display: flex;
+  flex-direction: row;
+}
+
+.tech {
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+  background-color: #80cbc4;
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+
+.project-details {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3vw;
+  font-weight: 400;
+}
+
+.detail-bullet {
+  margin: 5px;
+}
