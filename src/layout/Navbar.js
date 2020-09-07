@@ -52,16 +52,16 @@ class Navbar extends Component {
             </li> */}
             {/* <img style={{ height: "3vw", width: "3vw" }} src={githubICON} alt="github"/> */}
             <ThemeProvider theme={theme}>
-              <IconButton>
-                <GitHubIcon style={{ height: "2.2vw", width: "2.2vw", color: "#ffffff" }}
+              <IconButton >
+                <GitHubIcon class="Navbar-icon" 
                   onClick={() => this.openLink("github")}/>
               </IconButton>
               <IconButton>
-                <LinkedInIcon style={{ height: "2.2vw", width: "2.2vw", color: "#ffffff" }} 
+                <LinkedInIcon class="Navbar-icon" 
                   onClick={() => this.openLink("linkedin")}/>
               </IconButton>
               <IconButton>
-                <FacebookIcon style={{ height: "2.2vw", width: "2.2vw", color: "#ffffff" }} 
+                <FacebookIcon class="Navbar-icon" 
                   onClick={() => this.openLink("facebook")}/>
               </IconButton>
             </ThemeProvider>

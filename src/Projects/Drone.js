@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './Project.css';
+import ReactPlayer from 'react-player';
 
 import Navbar from '../layout/Navbar';
 
@@ -31,6 +32,20 @@ class Drone extends Component {
                 gestures to fly in all directions. 
               </li>
             </ul>
+          </div>
+          <div className="project-videos">
+            <div className="project-video">
+              < ReactPlayer controls
+                width="100%" height="100%"
+               url="https://youtu.be/J6YhY2urrgY" 
+              />
+            </div>
+            <div className="project-video">
+              < ReactPlayer controls
+                width="100%" height="100%"
+               url="https://youtu.be/-71jIXdcTLw" 
+              />
+            </div>
           </div>
         </div>
       </div>

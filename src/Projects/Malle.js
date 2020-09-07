@@ -19,16 +19,17 @@ class Malle extends Component {
             <div className="tech">React</div>
             <div className="tech">React-Redux</div>
             <div className="tech">Node.js</div>
+            <div className="tech">MongoDB</div>
           </div>
           <div className="project-details">
             <ul>
               <li className="detail-bullet">
                 Developed two modular and scalable React web apps that allow 
                 Brown's Malle lab researchers to study people's perception of 
-                fairness in criminal justice. 
+                fairness in criminal justice. One app is for researchers to customize experiments (with normal curves and bar graphs) and view participant data, the other is for people to participate in those experiments.
               </li>
               <li className="detail-bullet">
-                Built a versatile Node.js API that enables integration across the two apps and Qualtrics survey tool.
+                Used MongoDB and built a versatile Node.js API that enables integration across the two apps and Qualtrics survey tool.
               </li>
               <li className="detail-bullet">
                 Enabled randomizing experiments by adding a feature to let researchers easily import previously configured questions.

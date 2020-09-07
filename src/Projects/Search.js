@@ -27,6 +27,12 @@ class Search extends Component {
                 The algorithm handles large-scale data and queries 50% faster 
                 than requirement for full credit. 
               </li>
+              <li className="detail-bullet">
+                Implemented the PageRank algorithm. 
+              </li>
+              <li className="detail-bullet">
+                Learned to trade off between space and time efficiency; implemented multiple hashmaps that drastically decreased querying speed.
+              </li>
             </ul>
           </div>
         </div>

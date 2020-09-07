@@ -23,9 +23,14 @@
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.7vw;
+  font-size: calc(12px + 1vw);
 }
 
 .Navbar-li a:hover {
   background-color: #111;
+}
+
+.Navbar-icon {
+  height: calc(18px  + 1.1vw);
+  width: calc(18px  + 1.1vw);
 }

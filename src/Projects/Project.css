@@ -43,6 +43,7 @@
 
 .project-video {
   margin: 20px;
+  min-width: 300px;
   width: 30vw;
   height: 20vw;
   background-color: #80cbc4;

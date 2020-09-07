@@ -7,10 +7,19 @@
   overflow-x: hidden; 
 }
 
+.home-container {
+  position: relative;
+  top: 5%;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: royalblue; */
+  flex-direction: column;
+  justify-content: center;
+}
+
 .group3 {
-  position: fixed;
-  left: 8%;
-  top: 18%;
   width: 35%;
   height: 60%;
   /* background-color: darkgreen; */
@@ -19,37 +28,40 @@
 }
 
 .group1 {
-  display: flex;
-  position: relative;
   color: black;
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 4vw;
+  display: flex;
   width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
   /* background-color: darkgray; */
 }
 
+.name-resume {
+  align-self: center;
+}
+
 .proCircle {
-  float: right;
-  height: 22vw;
-  width: 22vw;
+  height: 21vw;
+  width: 21vw;
   /* background-color: darkgray; */
 }
 
 .group1-1 {
   position: relative;
-  float: left;
+  justify-content: center;
 }
 
 .group2 {
-  position: fixed;
-  right: 10%;
-  top: 20%;
   color: black;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 1.7vw;
-  width: 35%;
+  width: 80%;
+  margin: auto;
+  min-width: 300px;
 };
 
 .intro {
