@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './Project.css';
+import ReactPlayer from "react-player";
 
 import Navbar from '../layout/Navbar';
 
@@ -37,7 +38,22 @@ class Malle extends Component {
               </li>
             </ul>
           </div>
+          <div className="project-videos">
+            <div className="project-video">
+              < ReactPlayer controls
+                width="100%" height="100%"
+               url="https://www.youtube.com/watch?v=nlYlNF30bVg" 
+              />
+            </div>
+            <div className="project-video">
+              < ReactPlayer controls
+                width="100%" height="100%"
+               url="https://www.youtube.com/watch?v=nlYlNF30bVg" 
+              />
+            </div>
+          </div>
         </div>
+        <br/><br/><br/><br/>
       </div>
     )
   }

@@ -11,29 +11,21 @@ class Connect4 extends Component {
         <Navbar />
         <div className="project-container">
           <div className="project-header">
-            Lead Full-Stack Web Developer
+            Connect-4 Game
           </div>
           <div className="project-tech">
-            <div className="tech">Javascript</div>
-            <div className="tech">React</div>
-            <div className="tech">React-Redux</div>
-            <div className="tech">Node.js</div>
+            <div className="tech">Reason</div>
+            <div className="tech">OCaml</div>
           </div>
           <div className="project-details">
             <ul>
               <li className="detail-bullet">
-                Developed two modular and scalable React web apps that allow 
-                Brown's Malle lab researchers to study people's perception of 
-                fairness in criminal justice. 
+                Implemented the minimax algorithm and alpha-beta pruning. 
+                The game A.I. can play against human players and other 
+                A.I.'s. 
               </li>
               <li className="detail-bullet">
-                Built a versatile Node.js API that enables integration across the two apps and Qualtrics survey tool.
-              </li>
-              <li className="detail-bullet">
-                Enabled randomizing experiments by adding a feature to let researchers easily import previously configured questions.
-              </li>
-              <li className="detail-bullet">
-                Led the development team by 1. communicating with researchers to make sure the apps meet their needs 2. planning out weekly goals for the team 3. drawing app flow charts so that everyone stayed on the same page. 
+                My algorithm beat 95% of other A.I.'s in the class. 
               </li>
             </ul>
           </div>

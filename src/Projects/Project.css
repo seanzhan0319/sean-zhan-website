@@ -34,3 +34,16 @@
 .detail-bullet {
   margin: 5px;
 }
+
+.project-videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-video {
+  margin: 20px;
+  width: 30vw;
+  height: 20vw;
+  background-color: #80cbc4;
+}
