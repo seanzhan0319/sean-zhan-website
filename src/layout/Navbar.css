@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  height: 10%;
   /* background-color: #333; */
   background-color: #009688;
   /* height: 4vw; */
@@ -10,20 +11,27 @@
 
 .left {
   float: left;
+  height: 100%;
 }
 
 .right {
   float: right;
+  height: 100%;
 }
 
 .Navbar-li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: calc(10px + 0.4vw) 3.1vh;
+  /* padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh; */
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: calc(12px + 1vw);
+  font-size: 3.2vh;
+  /* width: 10vw; */
 }
 
 .Navbar-li a:hover {
@@ -33,4 +41,19 @@
 .Navbar-icon {
   height: calc(18px  + 1.1vw);
   width: calc(18px  + 1.1vw);
+}
+
+.Navbar-resume {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: calc(20px);
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }

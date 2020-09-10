@@ -32,7 +32,8 @@ class Leadership extends Component {
           <Navbar />
           <p className="component-header">Leadership</p>
           <div className="acc-container">
-            <Accordion expanded={this.state['panel1']} style={{ boxShadow: 'none' }}
+            <Accordion expanded={this.state['panel1']} 
+              style={{ boxShadow: 'none' }}
               onChange={() => this.handleChange('panel1')}>
               <AccordionSummary
                 style={{ backgroundColor: "#80cbc4" }}
@@ -49,14 +50,14 @@ class Leadership extends Component {
                   </div>
                 </div>
               </AccordionSummary>
-              <AccordionDetails style={{ backgroundColor: "#d3f0ee" }}>
+              <AccordionDetails style={{ backgroundColor: "#f0fafa" }}>
                 <ul className="project-des">
-                  <li>
+                  <li className="bullet-point">
                     2020 Fall - Organized an event to send care packages to 
                     incoming freshman Chinese American students and welcome 
                     them to Brown University virtually.
                   </li>
-                  <li>
+                  <li className="bullet-point">
                     2019 School Year - Hosted Lunar New Year Show to celebrate 
                     Chinese culture. Coordinated with performers and directed 
                     the show with an auction to donate to 
@@ -85,13 +86,13 @@ class Leadership extends Component {
                   </div>
                 </div>
               </AccordionSummary>
-              <AccordionDetails style={{ backgroundColor: "#d3f0ee" }}>
+              <AccordionDetails style={{ backgroundColor: "#f0fafa" }}>
                 <ul className="project-des">
-                  <li>
+                  <li className="bullet-point">
                     Taught Advanced Placement Physics at Hope High School 
                     as a TA for two hours each week.
                   </li>
-                  <li>
+                  <li className="bullet-point">
                     Bonded with inner-city students, helped improve their 
                     understanding of the material, and advocated for them when 
                     their teacher crossed boundaries. 
@@ -119,15 +120,15 @@ class Leadership extends Component {
                   </div>
                 </div>
               </AccordionSummary>
-              <AccordionDetails style={{ backgroundColor: "#d3f0ee" }}>
+              <AccordionDetails style={{ backgroundColor: "#f0fafa" }}>
                 <ul className="project-des">
-                  <li>
+                  <li className="bullet-point">
                     Lived in a freshman boys dorm to guide and support students, 
                     such as resolving conflicts, organizing dorm olympics, 
                     and having late-night talks with students who didn't feel 
                     like they fit in at the boarding school.
                   </li>
-                  <li>
+                  <li className="bullet-point">
                     Remembered every faculty and student's name in our school of 300 people. 
                   </li>
                 </ul>
@@ -153,14 +154,14 @@ class Leadership extends Component {
                   </div>
                 </div>
               </AccordionSummary>
-              <AccordionDetails style={{ backgroundColor: "#d3f0ee" }}>
+              <AccordionDetails style={{ backgroundColor: "#f0fafa" }}>
                 <ul className="project-des">
-                  <li>
+                  <li className="bullet-point">
                     Tutored peers in math every Thursday night, 
                     coordinated with other math tutors, 
                     and organized meetings with math teachers.
                   </li>
-                  <li>
+                  <li className="bullet-point">
                     Number of tutees who came for help doubled since I 
                     became math tutoring head. 
                   </li>
@@ -168,7 +169,7 @@ class Leadership extends Component {
               </AccordionDetails>
             </Accordion>
           </div>
-          <br/>
+          <br/><br/><br/><br/><br/><br/>
         </div>
       // </Fade>
     )

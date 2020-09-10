@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './Navbar.css';
 import { Link } from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles'
+import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -40,6 +41,11 @@ class Navbar extends Component {
     )
   }
 
+  openResume() {
+    window.open("https://drive.google.com/file/d/1QdTP497UZiekfqdF43tuife-y4ssn3kA/view?usp=sharing",
+      "_blank");
+  }  
+
   render() {
     return (
       <div>
@@ -50,27 +56,37 @@ class Navbar extends Component {
                 Git
               </a>
             </li> */}
-            {/* <img style={{ height: "3vw", width: "3vw" }} src={githubICON} alt="github"/> */}
+            {/* <img style={{ height: "2vw", width: "2vw" }} src={githubICON} alt="github"/> */}
             <ThemeProvider theme={theme}>
               <IconButton >
-                <GitHubIcon class="Navbar-icon" 
+                <GitHubIcon style={{ height: "4.2vh", width: "4.2vh", color: "white"}}
                   onClick={() => this.openLink("github")}/>
               </IconButton>
               <IconButton>
-                <LinkedInIcon class="Navbar-icon" 
+                <LinkedInIcon style={{ height: "4.2vh", width: "4.2vh", color: "white" }}
                   onClick={() => this.openLink("linkedin")}/>
               </IconButton>
               <IconButton>
-                <FacebookIcon class="Navbar-icon" 
+                <FacebookIcon style={{ height: "4.2vh", width: "4.2vh", color: "white" }}
                   onClick={() => this.openLink("facebook")}/>
               </IconButton>
             </ThemeProvider>
 
+            {/* <button className="Navbar-resume">
+              hello
+            </button> */}
           </div>
           {/* <div className="right">
             <li className="Navbar-li">
               <Link to="/contact">
                 Contact
+              </Link>
+            </li>
+          </div> */}
+          {/* <div className="right">
+            <li className="Navbar-li">
+              <Link onClick={() => this.openResume()}>
+                Resume
               </Link>
             </li>
           </div> */}

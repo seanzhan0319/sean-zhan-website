@@ -9,13 +9,14 @@
 
 .summary {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.2vw;
+  font-size: 2.6vh;
+  font-weight: 500;
   float: left;
 }
 
 .summary-sub {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.2vw;
+  font-size: 2.6vh;
   color: #505050;
   float: right;
 }
@@ -23,5 +24,9 @@
 .project-des {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 1vw;
+  font-size: 2.4vh;
+}
+
+.bullet-point {
+  padding-bottom: 5px;
 }

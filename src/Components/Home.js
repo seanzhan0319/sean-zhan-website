@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 
 import Navbar from '../layout/Navbar';
 import proCircle from '../media/proCircle.png';
+import proRec from '../media/proRec.jpg';
 
 class Home extends Component {
 
@@ -14,28 +15,28 @@ class Home extends Component {
 
   render() {
     return (
-      // <Fade in={false} timeout={1000}>
-        <div class="home">
-          <Navbar />
-          <div className="home-container">
-            <div className="group1">
+      <div class="home">
+        <Navbar />
+        <div className="home-container">
+          <img className="proRec" 
+            src={proRec} alt="SeanZhanPhoto"/>
+          <div className="group2">
               <div className="name-resume">
-                Sean Zhan 
-                <Button style={{ fontSize:'1.2vw' }} variant="outlined"
+                <div className="name">
+                  Sean Zhan 
+                </div>
+                {/* <Button variant="outlined" style={{ boxShadow: "none" }}
                   onClick={() => {this.openResume()}}>
                     Resume  
-                </Button>
-              </div>
-              <img className="proCircle" src={proCircle} alt="proCircle"/>
-            </div>
-            <div className="group2">
-              <div style={{ fontSize: "2.2vw" }}>
-                Hi! 
+                </Button> */}
               </div>
               <br/>
               <div className="intro">
-                I'm an aspiring student at Brown University concentrating in Computer 
-                Science and Applied Math. <br/><br/>
+                <div className="intro-paragraph">
+                  I'm an aspiring student at Brown University concentrating in Computer 
+                  Science and Applied Math.
+                </div>
+                <br/>
                 I'm experienced in full-stack web application development. My strengths 
                 mainly lie in building versatile back-ends and customer-focused 
                 products. I'm energetic and creative, and you can trust 
@@ -43,10 +44,10 @@ class Home extends Component {
                 In my free time, I build and race drones, play the guitar, 
                 and watch Trevor Noah. 
               </div>
-            </div>
           </div>
-        </div>
-      // </Fade>
+        </div>          
+        
+      </div>
     )
   }
 }

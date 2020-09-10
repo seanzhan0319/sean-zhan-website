@@ -7,6 +7,7 @@ import {
   Link
 } from "react-router-dom";
 
+import Navbar from './layout/Navbar';
 import Home from './Components/Home';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
@@ -19,6 +20,7 @@ import Search from './Projects/Search';
 function App() {
   return (
     <Router>
+      {/* <Navbar /> */}
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/experience" component={Projects}/>

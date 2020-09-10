@@ -42,14 +42,16 @@ class Projects extends Component {
   cardGenerator(id, media, mainDes, subDes) {
     return (
       <div className="card-container">
-        <Card style={{ boxShadow: "none" }}>
+        <Card style={{ boxShadow: "none"
+          // , borderColor: "#80cbc4", borderWidth: "10px", borderStyle: "solid" 
+          }} >
           <CardActionArea onClick={() => this.whichPanel(id)}>
             <CardMedia
               style={{ height: "180px" }}
               image={media}
               title="Contemplative Reptile"
             />
-            <CardContent style={{ backgroundColor: "#e9f7f6" }}>
+            <CardContent style={{ backgroundColor: "#f0fafa" }}>
               <Typography gutterBottom variant="h5" component="h2"
                 className="card-content">
                 {mainDes}
@@ -60,8 +62,8 @@ class Projects extends Component {
               </Typography>
             </CardContent>
           </CardActionArea>
-          <CardActions style={{ backgroundColor: "#e9f7f6" }}>
-            <Button size="small" color="primary" onClick={() => this.whichPanel(id)}>
+          <CardActions style={{ backgroundColor: "#f0fafa" }}>
+            <Button size="small" color="default" onClick={() => this.whichPanel(id)}>
               Learn More
             </Button>
           </CardActions>

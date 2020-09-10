@@ -42,14 +42,44 @@ class Malle extends Component {
           <div className="project-videos">
             <div className="project-video">
               < ReactPlayer controls
+                playbackRate = {1.25}
                 width="100%" height="100%"
-               url="https://www.youtube.com/watch?v=nlYlNF30bVg" 
+               url="https://youtu.be/0E-jN89yVkw" 
               />
             </div>
             <div className="project-video">
               < ReactPlayer controls
+                playbackRate = {1.25}
                 width="100%" height="100%"
-               url="https://www.youtube.com/watch?v=nlYlNF30bVg" 
+               url="https://youtu.be/MZLObEiKFAA" 
+              />
+            </div>
+            <div className="project-video">
+              < ReactPlayer controls
+                playbackRate = {1.25}
+                width="100%" height="100%"
+               url="https://youtu.be/H8CRcKy6M3s" 
+              />
+            </div>
+            <div className="project-video">
+              < ReactPlayer controls
+                playbackRate = {1.25}
+                width="100%" height="100%"
+               url="https://youtu.be/m16aVBc-3io" 
+              />
+            </div>
+            <div className="project-video">
+              < ReactPlayer controls
+                playbackRate = {1.25}
+                width="100%" height="100%"
+               url="https://youtu.be/EbhxrwxkDW4" 
+              />
+            </div>
+            <div className="project-video">
+              < ReactPlayer controls
+                playbackRate = {1.25}
+                width="100%" height="100%"
+               url="https://youtu.be/GNeVzMznUe0" 
               />
             </div>
           </div>
