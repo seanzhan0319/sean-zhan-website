@@ -25,7 +25,7 @@ class IoTConsultant extends Component {
               <li className="detail-bullet">
                 Brainstormed, examined academic research papers, and analyzed corporation reports with IoT Consulting Group to co-edit 
                 an informative paper: 
-                <a style={{ paddingLeft: "5px" }} href="https://drive.google.com/file/d/1CGHvkh62GQ3_qRluRbQ3mTYtVYBfVNlq/view?usp=sharing" target="_blank"> 
+                <a style={{ paddingLeft: "5px" }} href="https://seanzhan.com/docs/IoT_Research_Paper.pdf" target="_blank"> 
                   Research on Power Grid Enterprises’ Development and Application of Data Mid-End Under Current Trends
                 </a>
               </li>

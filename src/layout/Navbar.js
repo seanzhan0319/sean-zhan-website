@@ -20,7 +20,7 @@ class Navbar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      iconSize: "2vw"
+      iconSize: "4.2vh"
     }
   }
   

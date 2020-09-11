@@ -2,7 +2,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: scroll;
   height: 8%;
   /* background-color: #333; */
   background-color: #009688;
@@ -23,14 +23,14 @@
   display: block;
   color: white;
   text-align: center;
-  padding: calc(10px + 0.4vw) 3.1vh;
+  padding: calc(12px + 0.4vw) 2.5vh;
   /* padding-left: 0.5vw;
   padding-right: 0.5vw;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh; */
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.6vw;
+  font-size: 3.2vh;
   /* width: 10vw; */
 }
 
