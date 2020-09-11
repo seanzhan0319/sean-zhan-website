@@ -26,9 +26,9 @@ class Leadership extends Component {
   }
 
   render() {
-    return (
+    return ( 
       // <Fade>
-        <div>
+        <div style={{ height: "100%" }}>
           <Navbar />
           <p className="component-header">Leadership</p>
           <div className="acc-container">
