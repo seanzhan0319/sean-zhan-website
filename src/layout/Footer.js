@@ -7,7 +7,7 @@ class Footer extends Component {
         <div style={{ width: "100%" }}>
           <div className="footer">
             Designed by Sean Zhan |
-            <a className="footer-resume" href="https://seanzhan.com/docs/Sean_Xiao_Zhan.pdf">Resume</a>
+            <a className="footer-resume" href="https://seanzhan.com/docs/Sean_Xiao_Zhan.pdf" target="_blank">Resume</a>
           </div>
         </div>
       </div>
