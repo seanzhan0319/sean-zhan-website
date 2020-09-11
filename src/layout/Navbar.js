@@ -17,6 +17,12 @@ const theme = createMuiTheme({
 });
 
 class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      iconSize: "2vw"
+    }
+  }
   
   openLink(which) {
     const github = "https://github.com/seanzhan0319";
@@ -48,7 +54,6 @@ class Navbar extends Component {
 
   render() {
     return (
-      <div>
         <ul className="NavBar-ul">
           <div className="left">
             {/* <li>
@@ -59,15 +64,15 @@ class Navbar extends Component {
             {/* <img style={{ height: "2vw", width: "2vw" }} src={githubICON} alt="github"/> */}
             <ThemeProvider theme={theme}>
               <IconButton >
-                <GitHubIcon style={{ height: "4.2vh", width: "4.2vh", color: "white"}}
+                <GitHubIcon style={{ height: this.state.iconSize, width: this.state.iconSize, color: "white"}}
                   onClick={() => this.openLink("github")}/>
               </IconButton>
               <IconButton>
-                <LinkedInIcon style={{ height: "4.2vh", width: "4.2vh", color: "white" }}
+                <LinkedInIcon style={{ height: this.state.iconSize, width: this.state.iconSize, color: "white" }}
                   onClick={() => this.openLink("linkedin")}/>
               </IconButton>
               <IconButton>
-                <FacebookIcon style={{ height: "4.2vh", width: "4.2vh", color: "white" }}
+                <FacebookIcon style={{ height: this.state.iconSize, width: this.state.iconSize, color: "white" }}
                   onClick={() => this.openLink("facebook")}/>
               </IconButton>
             </ThemeProvider>
@@ -99,6 +104,13 @@ class Navbar extends Component {
           </div>
           <div className="right">
             <li className="Navbar-li">
+              <Link to="/projects">
+                Projects
+              </Link>
+            </li>
+          </div>
+          <div className="right">
+            <li className="Navbar-li">
               <Link to="/experience">
                 Experience
               </Link>
@@ -112,7 +124,6 @@ class Navbar extends Component {
             </li>
           </div>
         </ul>
-      </div>
     );
   }
 }

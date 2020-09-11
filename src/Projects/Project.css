@@ -20,19 +20,60 @@
 .tech {
   font-family: 'Raleway', sans-serif;
   margin: 10px;
+  padding: 5px 10px;
   background-color: #80cbc4;
   font-weight: 400;
   font-size: 1.2vw;
 }
 
+.btn {
+  font-size:16px;
+  margin: 10px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #80cbc4;
+  font-weight: 400;
+  font-size: 1.2vw;
+  color: black;
+}
+
+.btn:hover {
+  color:black;
+  background-color:white;
+  opacity:1;
+}
+
+.git {
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+  background-color: #acc2c0;
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+
+.git-link:link {
+  text-decoration: none;
+}
+
+.git-link:visited {
+  text-decoration: none;
+}
+
+.git-link:hover {
+  text-decoration: underline;
+}
+
+.git-link:active {
+  text-decoration: underline;
+}
+
 .project-details {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.3vw;
+  font-size: calc(8px + 0.8vw);
   font-weight: 400;
 }
 
 .detail-bullet {
-  margin: 5px;
+  margin: 10px;
 }
 
 .project-videos {
@@ -46,5 +87,10 @@
   min-width: 300px;
   width: 30vw;
   height: 20vw;
-  background-color: #80cbc4;
+  /* background-color: #80cbc4; */
+}
+
+.google-drive {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3vw;
 }

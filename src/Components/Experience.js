@@ -12,13 +12,10 @@ import Navbar from '../layout/Navbar';
 import Footer from '../layout/Footer';
 
 import fullStack from '../media/fullStack.png';
-import drone from '../media/drone.png';
-import connect4 from '../media/connect4.jpg';
-import search from '../media/search.png';
-import tictactoe from '../media/tictactoe.png';
-import CartPole from '../media/CartPole.png';
+import unify from '../media/unify.png';
+import structure from '../media/structure.png';
 
-class Projects extends Component {
+class Experience extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -39,10 +36,10 @@ class Projects extends Component {
 
   whichPanel(id) {
     console.log(id);
-    this.props.history.push("/projects/" + id);
+    this.props.history.push("/experience/" + id);
   }
 
-  cardGenerator(id, media, mainDes, subDes) {
+  cardGenerator(id, media, mainDes, subDes, time) {
     return (
       <div className="card-container">
         <Card style={{ boxShadow: "none"
@@ -50,7 +47,7 @@ class Projects extends Component {
           }} >
           <CardActionArea onClick={() => this.whichPanel(id)}>
             <CardMedia
-              style={{ height: "250px" }}
+              style={{ height: "180px" }}
               image={media}
               title="Contemplative Reptile"
             />
@@ -61,7 +58,7 @@ class Projects extends Component {
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p"
                 className="card-content">
-                {subDes}
+                {subDes} <br/><br/> {time}
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -80,50 +77,29 @@ class Projects extends Component {
       <div style={{ height: "100%" }}>
         <Navbar />
         <div className="component-container">
-          <p className="component-header">Projects</p>
+          <p className="component-header">Experience</p>
           <div className="card-flex-container">
-            {/* {this.cardGenerator(
+            {this.cardGenerator(
               "malle",
               fullStack,
               "Lead Full-Stack Web Developer",
-              "Developed two modular and scalable React web apps that allow Brown's Malle Lab researchers to study people's perception of fairness in criminal justice."
-            )} */}
-            {this.cardGenerator(
-              "drone",
-              drone,
-              "Autonomous Drone Flight",
-              "Programmed an open-source DJI Tello drone and incorporated a body-detection image-recognition algorithm (OpenPose) to achieve autonomous flight."
+              "Developed two modular and scalable React web apps that allow Brown's Malle Lab researchers to study people's perception of fairness in criminal justice.",
+              "June 2020 - Present"
             )}
             {this.cardGenerator(
-              "relearn",
-              CartPole,
-              "Reinforcement Learning Projects",
-              "Implemented Deep Q Networks and wrote agents to beat various games such as the Cart-Pole problem where a moving cart learns to balance a tall pole."
-            )}
-            {this.cardGenerator(
-              "tictactoe",
-              tictactoe,
-              "Tic-Tac-Toe iOS App",
-              "Programmed an iOS App that allows two users to play against each other while keeping track of their scores."
-            )}
-            {this.cardGenerator(
-              "connect4",
-              connect4,
-              "Connect-4 Game",
-              "Implemented the minimax algorithm and alpha-beta pruning. The game A.I. can play against human players and other A.I.'s. My algorithm beat 95% of other A.I.'s in the class."
-            )}
-            {this.cardGenerator(
-              "search",
-              search,
-              "Search Algorithm",
-              "Programmed a search algorithm that presents most relevant Wikipedia pages given an input. The algorithm handles large-scale data and queries 50% faster than requirement for full credit. "
+              "IoT",
+              structure,
+              "Internet of Things Consultant",
+              "Brainstormed, examined academic research papers, and analyzed corporation reports with IoT Consulting Group to co-edit a research paper.",
+              "Nov 2019 - Jan 2020"
             )}
           </div>
           <br/><br/><br/><br/><br/><br/>
         </div>
+        {/* <Footer /> */}
       </div>
     )
   }
 }
 
-export default Projects;
+export default Experience;

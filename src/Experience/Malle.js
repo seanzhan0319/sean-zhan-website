@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Project.css';
+import '../Projects/Project.css';
 import ReactPlayer from "react-player";
 
 import Navbar from '../layout/Navbar';
@@ -20,6 +20,9 @@ class Malle extends Component {
             <div className="tech">React-Redux</div>
             <div className="tech">Node.js</div>
             <div className="tech">MongoDB</div>
+          </div>
+          <div className="project-tech">
+            <div className="git">Git Repos Not Open-Source Yet</div>
           </div>
           <div className="project-details">
             <ul>

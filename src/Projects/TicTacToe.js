@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import './Project.css';
-import ReactPlayer from 'react-player';
+import ReactPlayer from "react-player";
 
 import Navbar from '../layout/Navbar';
 
-class Drone extends Component {
+class TicTacToe extends Component {
 
   openRepo() {
-    window.open("https://github.com/seanzhan0319/SmartTello",
+    window.open("https://github.com/seanzhan0319/tictactoe",
       "_blank");
   }  
 
@@ -17,27 +17,21 @@ class Drone extends Component {
         <Navbar />
         <div className="project-container">
           <div className="project-header">
-            Autonomous Drone Flight
+            Tic-Tac-Toe Game iOS App
           </div>
           <div className="project-tech">
             <button className="btn" onClick={() => this.openRepo()}>
               Git Repo
             </button>
-            <div className="tech">Python</div>
-            <div className="tech">OpenCV</div>
-            <div className="tech">OpenPose</div>
+            <div className="tech">Swift</div>
           </div>
           <div className="project-details">
             <ul>
               <li className="detail-bullet">
-                Programmed an open-source DJI Tello drone and incorporated 
-                a body-detection image-recognition algorithm (OpenPose) to 
-                achieve autonomous flight. 
+                The game app allows two users to play against each other while keeping track of their scores.
               </li>
               <li className="detail-bullet">
-                The drone is able to track and 
-                follow a person based on body keypoints and respond to 
-                gestures to fly in all directions. 
+                Developed the app in two hours as a speed coding challenge. 
               </li>
             </ul>
           </div>
@@ -45,13 +39,8 @@ class Drone extends Component {
             <div className="project-video">
               < ReactPlayer controls
                 width="100%" height="100%"
-               url="https://youtu.be/J6YhY2urrgY" 
-              />
-            </div>
-            <div className="project-video">
-              < ReactPlayer controls
-                width="100%" height="100%"
-               url="https://youtu.be/-71jIXdcTLw" 
+                playbackRate = {1.25}
+                url="https://youtu.be/xRlzn88GP0I" 
               />
             </div>
           </div>
@@ -61,4 +50,4 @@ class Drone extends Component {
   }
 }
 
-export default Drone;
+export default TicTacToe;

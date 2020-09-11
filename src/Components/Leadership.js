@@ -28,7 +28,7 @@ class Leadership extends Component {
   render() {
     return (
       // <Fade>
-        <div class="home">
+        <div>
           <Navbar />
           <p className="component-header">Leadership</p>
           <div className="acc-container">
@@ -43,10 +43,14 @@ class Leadership extends Component {
               > 
                 <div className="summary-container">
                   <div className="summary">
-                    Treasurer, Board Member
+                    Treasurer, Board Member 
+                    <br/>
+                    <div className="summary-time">
+                      Sep 2019 - Present
+                    </div>
                   </div>
                   <div className="summary-sub">
-                    Brown University Chinese Student Association
+                    Brown University Chinese Student Association 
                   </div>
                 </div>
               </AccordionSummary>
@@ -80,6 +84,10 @@ class Leadership extends Component {
                 <div className="summary-container">
                   <div className="summary">
                     Advanced Physics Tutor and Advocate
+                    <br/>
+                    <div className="summary-time">
+                      Sep 2019 - May 2020
+                    </div>
                   </div>
                   <div className="summary-sub">
                     Local High School
@@ -114,6 +122,10 @@ class Leadership extends Component {
                 <div className="summary-container">
                   <div className="summary">
                     Prefect - High School Senior Community Leader
+                    <br/>
+                    <div className="summary-time">
+                      Sep 2018 - May 2019
+                    </div>
                   </div>
                   <div className="summary-sub">
                     Cate School
@@ -148,6 +160,10 @@ class Leadership extends Component {
                 <div className="summary-container">
                   <div className="summary">
                     Head Math Tutor 
+                    <br/>
+                    <div className="summary-time">
+                      Sep 2018 - May 2020
+                    </div>
                   </div>
                   <div className="summary-sub">
                     Cate School

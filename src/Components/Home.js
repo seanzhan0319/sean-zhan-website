@@ -3,6 +3,7 @@ import './Home.css';
 import Button from '@material-ui/core/Button';
 
 import Navbar from '../layout/Navbar';
+import Footer from '../layout/Footer';
 import proCircle from '../media/proCircle.png';
 import proRec from '../media/proRec.jpg';
 
@@ -15,7 +16,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div class="home">
+      <div style={{ height: "100%" }}>
         <Navbar />
         <div className="home-container">
           <img className="proRec" 
@@ -23,7 +24,7 @@ class Home extends Component {
           <div className="group2">
               <div className="name-resume">
                 <div className="name">
-                  Sean Zhan 
+                  Sean (Xiao) Zhan 
                 </div>
                 {/* <Button variant="outlined" style={{ boxShadow: "none" }}
                   onClick={() => {this.openResume()}}>
@@ -39,14 +40,12 @@ class Home extends Component {
                 <br/>
                 I'm experienced in full-stack web application development. My strengths 
                 mainly lie in building versatile back-ends and customer-focused 
-                products. I'm energetic and creative, and you can trust 
-                me to get things done. <br/><br/> 
-                In my free time, I build and race drones, play the guitar, 
-                and watch Trevor Noah. 
+                products. I'm energetic, insightful, a team player, and I can always find creative ways to solve problems. <br/><br/> 
+                In my free time, I play Ultimate Frisbee, build and race drones, and play the guitar.
               </div>
           </div>
-        </div>          
-        
+        </div>
+        <Footer />
       </div>
     )
   }

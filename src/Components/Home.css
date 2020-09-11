@@ -1,17 +1,22 @@
-.home {
-  height: 100%;
-  margin: 0;
-  background-color: #b2dfdb;
-  /* background-color: #b2ebf2; */
-  position: center;
-  overflow-x: hidden; 
-}
-
 .home-container {
   position: relative;
   width: 90%;
-  height: 90%;
+  height: 87%;
   margin: auto;
+  /* background-color: thistle; */
+}
+
+.component-container {
+  position: relative;
+  width: 100%;
+  height: 87%;
+  margin: auto;
+  /* background-color: wheat; */
+}
+
+.footer-container {
+  height: 5%;
+  background-color: wheat;
 }
 
 .proRec {
@@ -93,7 +98,7 @@
   color: black;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  font-size: 6vh;
+  font-size: 2.6vw;
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -113,10 +118,10 @@
   height: 80%;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  font-size: 2.7vh;
+  font-size: 1.4vw;
   overflow: auto;
 }
-
+/* 
 .intro-paragraph {
-  /* background-color: white; */
-}
+  background-color: white;
+} */
