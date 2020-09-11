@@ -28,7 +28,7 @@ function App() {
   return (
     <div style={{ height: "100%" }}>
         <div className="home">
-          <Router>
+          <Router basename="/sean-zhan-website/">
             {/* <Navbar /> */}
             <Switch>
               <Route exact path="/" component={Home}/>
