@@ -6,8 +6,8 @@ class Footer extends Component {
       <div style={{ height: "5%", display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: "#009688" }}>
         <div style={{ width: "100%" }}>
           <div className="footer">
-            Designed by Sean Zhan |
-            <a className="footer-resume" href="https://seanzhan.com/docs/Sean_Xiao_Zhan.pdf" target="_blank">Resume</a>
+            Designed by Sean Zhan | 
+            <a className="footer-resume" href="https://seanzhan.com/docs/Sean_Xiao_Zhan.pdf" target="_blank">Resume</a> 
           </div>
         </div>
       </div>
