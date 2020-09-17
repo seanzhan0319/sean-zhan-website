@@ -76,6 +76,9 @@ class Navbar extends Component {
                   onClick={() => this.openLink("facebook")}/>
               </IconButton>
             </ThemeProvider>
+            <div style={{ textAlign: "center", display: "inline" }}>
+              <a className="header-resume" href="https://seanzhan.com/docs/Sean_Xiao_Zhan.pdf" target="_blank">Resume</a> 
+            </div>
 
             {/* <button className="Navbar-resume">
               hello

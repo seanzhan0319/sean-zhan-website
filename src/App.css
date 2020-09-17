@@ -62,9 +62,13 @@
   /* height: 100%; */
 }
 
-.footer-resume {
-  padding-left: 5px;
+.header-resume {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 2vh;
+  padding-left: 10px;
   color: white;
+  margin: auto;
 }
 /* 
 .btn {
@@ -78,24 +82,24 @@
   color: black;
 } */
 
-/* .footer-resume:hover {
+/* .header-resume:hover {
   color:black;
   background-color:white;
   opacity:1;
 } */
 
-.footer-resume:link {
+.header-resume:link {
   text-decoration: none;
 }
 
-.footer-resume:visited {
+.header-resume:visited {
   text-decoration: none;
 }
 
-.footer-resume:hover {
+.header-resume:hover {
   text-decoration: underline;
 }
 
-.footer-resume:active {
+.header-resume:active {
   text-decoration: underline;
 }
